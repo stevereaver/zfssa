@@ -15,17 +15,17 @@ def getenv(environment):
     ENV = []
 
     if environment=='HLO_TEST':
-        PASSWORD = "cm9vdDpnazROX3AzbQ=="
+        PASSWORD = "xx"
         HOSTS=["ihlocs03","ihlocs23"]
     if environment=='HLO_PROD':
-        PASSWORD = "cm9vdDpnazROX3AzbQ=="
+        PASSWORD = "xx"
         HOSTS=["ihlocs02","ihlocs22"]
 
     if environment=='FCL_TEST':
-        PASSWORD = "cm9vdDptOHFQTSpyaw=="
+        PASSWORD = "xx"
         HOSTS=["iclyi11b","iclyi05b"]
     if environment=='FCL_PROD':
-        PASSWORD = "cm9vdDptOHFQTSpyaw=="
+        PASSWORD = "xx"
         HOSTS=["iclyi10b","iclyi04b"]
 
     for host in HOSTS:
