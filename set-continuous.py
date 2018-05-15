@@ -11,7 +11,7 @@ HOST = 'https://10.2.0.191:215/'
 # Set ALL replication actions to continuous
 url = HOST+'api/storage/v1/replication/actions'
 print url
-headers = {'Authorization': 'Basic cm9vdDpHMGRfNGM3Xw=='}
+headers = {'Authorization': 'Basic xx'}
 response = requests.get(url, headers=headers,verify=False)
 nodeRef = json.loads(response.text)
 #print nodeRef
